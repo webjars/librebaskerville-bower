@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>librebaskerville-bower</artifactId>
-    <version>upstream-34fb624ef6f7a31980df5609a2e16ca240a72f48</version>
+    <version>0-SNAPSHOT</version>
     <name>librebaskerville-bower</name>
     <description>WebJar for librebaskerville-bower</description>
     <url>http://webjars.org</url>
@@ -49,7 +49,7 @@
         <url>http://github.com/webjars/librebaskerville-bower</url>
         <connection>scm:git:https://github.com/webjars/librebaskerville-bower.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/librebaskerville-bower.git</developerConnection>
-        <tag>librebaskerville-bower-upstream-34fb624ef6f7a31980df5609a2e16ca240a72f48</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <build>
