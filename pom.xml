@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>librebaskerville-bower</artifactId>
-    <version>upstream-34fb624ef6f7a31980df5609a2e16ca240a72f48-SNAPSHOT</version>
+    <version>upstream-34fb624ef6f7a31980df5609a2e16ca240a72f48</version>
     <name>librebaskerville-bower</name>
     <description>WebJar for librebaskerville-bower</description>
     <url>http://webjars.org</url>
@@ -32,8 +32,8 @@
     <developers>
         <developer>
             <id>pedrosans</id>
-            <name></name>
-            <email></email>
+            <name />
+            <email />
         </developer>
     </developers>
 
@@ -49,7 +49,7 @@
         <url>http://github.com/webjars/librebaskerville-bower</url>
         <connection>scm:git:https://github.com/webjars/librebaskerville-bower.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/librebaskerville-bower.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>librebaskerville-bower-upstream-34fb624ef6f7a31980df5609a2e16ca240a72f48</tag>
     </scm>
     
     <build>
@@ -78,13 +78,13 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="download archive"/>
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip"/>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="download archive" />
+                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}"/>
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}" />
                                 </move>
                             </target>
                         </configuration>
